@@ -1,0 +1,491 @@
+
+
+
+/* ------------------------------------- header ------------------------------------- */
+div#homepage_notice, .flashNotice p {
+  text-align: center;
+  font-size: 17px;
+  padding: 7px 0;
+}
+
+/* --- element_general_popups --- */
+#wrapper #topopup {
+  background: none repeat scroll 0 0 #FFF;
+  color: #333;
+  font-size: 14px;
+  position: fixed;
+  top: 20%;
+  z-index: 999999;
+  display: none;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 10em;
+  width: 50%;
+}
+span.ecs_tooltip {
+  background: none repeat scroll 0 0 #FFF;
+  color: #FFF;
+  display: none;
+  font-size: 11px;
+  height: 16px;
+  opacity: 0.7;
+  padding: 4px 3px 2px 5px;
+  position: absolute;
+  right: -62px;
+  text-align: center;
+  top: 0px;
+  color: #000;
+  width: 93px;
+  display: none;
+}
+#backgroundPopup {
+  z-index: 888888;
+  position: fixed;
+  display: none;
+  height: 100%;
+  width: 100%;
+  background:#000;
+  top: 0px;
+  left: 0px;
+}
+div#popup_content {
+  padding: 20px 20px;
+}
+.close {
+  background: url(exit.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  bottom: 0;
+  cursor: pointer;
+  float: right;
+  height: 52px;
+  left: 0;
+  top: 20px;
+  position: relative;
+  width: 54px;
+  z-index: 100;
+}
+.element_general_popup table {
+  display: none;
+}
+
+/* ------------------------------------- end layout_header ------------------------------------- */
+
+/* Responsive Changes */
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12{
+  float:right;
+}
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12 {
+  float: right;
+}
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+  float: right;
+}
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12 {
+  float: right;
+}
+.navbar-nav>li>a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background: none;
+}
+.navbar-nav {
+  margin: 30px 0px 10px;
+}
+.carousel-control {
+  width: 10%;
+}
+input {
+  border: none;
+}
+input:focus, textarea:focus {
+  outline: none;
+}
+.popover.bottom>.arrow {
+  top: -11px;
+  border-bottom-color: rgba(160, 160, 160, 1);
+}
+.popover.bottom>.arrow:after {
+  top: 2px;
+  right: -10px;
+}
+iframe {
+    max-width: 100%;
+}
+
+/* ------------------------------------- footer ------------------------------------- */
+#bg_footer {
+  direction: rtl;
+}
+div#footer_group2 {
+    overflow: hidden;
+}
+#bg_footer ul {
+    padding: 0;
+}
+#bg_footer ul li {
+    display: block;
+}
+#konimbo_logo {
+  background: #1f1e1e;
+  height: 30px;
+}
+#konimbo_logo a {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+  font-size: 15px;
+  line-height: 30px;
+  color: #fff;
+  /*background: url(footer_konimbo_icon.png) no-repeat 9px center ;*/
+}
+.element_general_footer_nav_list {
+  padding: 0;
+}
+.element_general_footer_nav_list:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* ------------------------------------- end of footer ------------------------------------- */
+
+
+#topopup,span.ecs_tooltip{background:#FFF;display:none}#backgroundPopup,#topopup,.element_general_popup table,.tamplate1 .close,.tamplate2 .close{display:none}.tamplate10 div.smallButton div:after,.tamplate11 div.smallButton div:after,.tamplate7 div.smallButton div:after,.tamplate8 div.smallButton div:after,.tamplate9 div.smallButton div:after{content:"×¦×¨×¤×• ×’× ××•×ª×:tm:";display:block}#topopup{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;color:#333;font-size:14px;left:50%;margin-left:-402px;position:fixed;top:10%;z-index:999999;border:10px solid #CCC}span.ecs_tooltip{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;font-size:11px;height:16px;opacity:.7;padding:4px 3px 2px 5px;position:absolute;right:-62px;text-align:center;top:0;color:#000;width:93px}#backgroundPopup{z-index:888888;position:fixed;height:100%;width:100%;background:#000;top:0;left:0}.close{background:url(exit.png) no-repeat rgba(0,0,0,0);bottom:0;cursor:pointer;float:right;height:52px;left:0;top:20px;position:relative;width:54px;z-index:100}.tamplate1 .element_general_images.fancy_popup img,.tamplate2 .element_general_images.fancy_popup img{margin:0 0 20px 20px;position:absolute;top:285px;right:196px;float:right;max-width:300px}.tamplate1 .element_general_popups.fancy_popup{border-radius:10px;width:787px;height:471px}.tamplate1 .element_general_popup{background:#FFF;height:471px;width:787px}.tamplate1 .popup_title{height:145px;width:100%;background:#5F5E5A}.tamplate1 #popup_content .popup_title h3{color:#FFF;font-size:72px;width:100%;height:50px;padding:93px 40px 0 0}.tamplate1 .popup_content{width:738px;height:303px;background:url(constractor1.jpg) center 0 no-repeat;color:#4B4946!important;font-size:59px;line-height:44px;font-weight:700;padding:22px 50px 0 0}.tamplate1 .element_general_popup a{width:100%;height:100%;display:block;background:url(popup_btn.png) 45px 524px no-repeat}.tamplate2 .element_general_popups.fancy_popup{border-radius:10px;width:787px;height:471px}.tamplate2 .element_general_popup{height:471px;width:787px;background:url(constractor2.png) 20px 80px no-repeat}.tamplate2 .popup_title{height:145px;width:100%;background:#262F4F;z-index:-1;position:relative}.tamplate2 #popup_content .popup_title h3{color:#FFF;font-size:64px;width:100%;height:50px;padding:73px 40px 0 0}.tamplate2 .popup_content{width:738px;height:302px;color:#262F4F!important;font-size:53px;font-weight:700;padding:22px 50px 0 0}.tamplate2 .element_general_popup a{width:100%;height:100%;display:block}.element_general_popups.fancy_popup{border-radius:10px;width:787px;height:471px}.tamplate3 .loader,.tamplate4 .loader,.tamplate5 .loader{background:url(loading.gif) no-repeat;height:32px;width:32px;display:none;z-index:9999;top:40%;left:50%;position:absolute;margin-left:-10px}.tamplate3 .element_general_popup a,.tamplate4 .element_general_popup a,.tamplate5 .element_general_popup a{width:100%;height:100%;display:block}.tamplate4 .element_general_popup .popup_newsletter,.tamplate5 .element_general_popup .popup_newsletter{position:absolute;top:251px;left:318px}.tamplate3 .popup_newsletter .element_general_newsletter,.tamplate4 .popup_newsletter .element_general_newsletter,.tamplate5 .popup_newsletter .element_general_newsletter{background:0 0}.tamplate3 #popup_content .popup_title h3,.tamplate4 #popup_content .popup_title h3,.tamplate5 #popup_content .popup_title h3{color:#464646;font-size:41px;width:75%;height:50px;position:absolute;text-align:center;margin-top:120px}.tamplate3 .popup_content,.tamplate4 .popup_content,.tamplate5 .popup_content{color:#464646!important;font-size:25px;font-weight:700;width:220px;line-height:29px;position:absolute;top:170px;right:179px}.tamplate3 .popup_content_bottom,.tamplate4 .popup_content_bottom,.tamplate5 .popup_content_bottom{width:719px;height:130px;color:#464646!important;font-size:13px;padding-right:165px;padding-top:140px;font-weight:700}.tamplate3 .element_general_newsletter+input+div.smallButton div:hover,.tamplate4 .element_general_newsletter+input+div.smallButton div:hover,.tamplate5 .element_general_newsletter+input+div.smallButton div:hover{background-position:0 0}.popup_newsletter .element_general_newsletter #ticket_customer_email{color:#000;text-align:right;top:0;left:auto;bottom:auto;right:22px;background:0 0}.tamplate3 .element_general_images.fancy_popup img{float:right;margin:0 0 20px 20px;max-width:300px;position:absolute;top:285px;right:196px}.tamplate3 .element_general_popup{background:#FFF;height:471px;width:787px}.tamplate3 .popup_title{height:231px;width:100%;background:url(news1.png) 175px 116px no-repeat}.tamplate3 .popup_newsletter .element_general_newsletter #ticket_customer_email{width:430px;height:47px;background-color:rgba(253,253,253,0);-webkit-box-shadow:1px 1px rgba(255,255,255,.47),inset 1px 1px 2px rgba(0,0,0,.23);-moz-box-shadow:1px 1px rgba(255,255,255,.47),inset 1px 1px 2px rgba(0,0,0,.23);box-shadow:1px 1px rgba(255,255,255,.47),inset 1px 1px 2px rgba(0,0,0,.23);background-image:-webkit-linear-gradient(top,rgba(0,0,0,.06),rgba(176,176,176,.06));background-image:-moz-linear-gradient(top,rgba(0,0,0,.06),rgba(176,176,176,.06));background-image:-o-linear-gradient(top,rgba(0,0,0,.06),rgba(176,176,176,.06));background-image:linear-gradient(to bottom,rgba(0,0,0,.06),rgba(176,176,176,.06));right:83px}.tamplate3 .element_general_newsletter+input+div.smallButton div{background:url(new1_send_btn.jpg) no-repeat;width:128px;position:relative;height:50px;top:-38px;left:0;right:390px}.tamplate3 .element_general_popup .popup_newsletter{position:absolute;top:260px;left:312px}.tamplate4 .element_general_images.fancy_popup img{float:right;margin:0 0 20px 20px;max-width:300px;position:absolute;top:285px;right:196px}.tamplate4 .element_general_popup{background:#FFF;height:471px;width:787px}.tamplate4 .popup_title{width:100%;height:253px;background:url(news2.png) 86px 32px no-repeat}.tamplate4 #popup_content .popup_title h3{color:#464646;font-size:41px;width:76%;height:50px;position:absolute;text-align:right;margin-top:120px}.tamplate4 .popup_content{color:#464646!important;font-size:25px;font-weight:700;width:220px;line-height:29px;position:absolute;top:170px}.tamplate4 .popup_content_bottom{margin:56px 107px 0 0;padding:0}.tamplate4 .element_general_newsletter+input+div.smallButton div{background:url(new2_send_btn.jpg) no-repeat;width:128px;position:relative;height:50px;top:-43px;left:0;right:328px}.tamplate4 #popup_content .popup_title h3{margin-right:103px}.tamplate4 .popup_content{right:113px}.tamplate4 .popup_newsletter .element_general_newsletter #ticket_customer_email{width:430px;height:47px;background-color:#fdfdfd;border:1px solid #999797;color:#000;text-align:right}.tamplate5 .element_general_images.fancy_popup img{float:right;margin:0 0 20px 20px;max-width:300px;position:absolute;top:285px;right:196px}.tamplate5 .element_general_popup{height:471px;width:787px;background:url(news3.png) 15px 120px no-repeat}.tamplate5 .popup_title{width:100%;height:206px;background:#549CB0;z-index:-1;position:relative}.tamplate5 #popup_content .popup_title h3{font-size:41px;height:50px;position:absolute;text-align:right;margin:0 103px 0 0;padding:0;top:176px;color:#FFF}.tamplate5 .popup_content{color:#464646!important;font-size:25px;font-weight:700;width:220px;line-height:29px;position:absolute;top:220px;right:113px}.tamplate5 .popup_content_bottom{padding:0;margin:136px 107px 0 0}.tamplate5 .element_general_newsletter+input+div.smallButton div{background:url(new2_send_btn.jpg) no-repeat;width:128px;position:relative;height:50px;top:-43px;left:auto;right:328px}.tamplate5 .popup_newsletter .element_general_newsletter #ticket_customer_email{width:430px;height:47px;background-color:#FDFDFD;border:1px solid #999797;color:#000;text-align:right}.tamplate5 .element_general_newsletter{margin-top:34px}.tamplate6 .element_general_popup,.tamplate6 .popup_title{background:0 0}#topopup.tamplate6{background:url(news6.png) no-repeat;border:none;width:1001px;height:705px;right:0;left:0;margin:0 auto}.tamplate6 button#modal_close_btn.close{background:url(news6_close.png) no-repeat!important;top:280px!important;width:51px!important;height:50px!important;left:136px!important;right:auto!important}.tamplate6 .popup_content{font-size:35px;font-weight:700;color:#464646;line-height:41px;width:500px;top:369px;right:211px;position:absolute;max-height:90px;overflow:hidden}.tamplate6 #popup_content .popup_title h3{font-size:37.32px;height:46px;position:absolute;text-align:right;margin:0 103px 0 0;padding:0;top:284px;color:#FFF;transform:rotate(.5deg);right:41px;line-height:43px;overflow:hidden;max-width:630px}#topopup.tamplate6 #new_ticket{width:100%;height:initial}.tamplate6 .contact{width:100%}.tamplate6 .popup_newsletter .element_general_newsletter{background:0 0;width:100%}.tamplate6 .contact label{width:100%;padding-right:0}#topopup.tamplate6 .element_general_newsletter #ticket_customer_email{background-color:#fff;margin:0}.tamplate6 .element_general_popup .popup_newsletter{position:absolute;bottom:100px;left:233px;width:560px;top:auto}.tamplate6 .popup_content_bottom{font-size:16.32px;color:#464646!important;position:absolute;bottom:118px;height:30px;font-weight:400;margin:0;right:236px}.tamplate6 .smallButton{width:246px;height:70px;left:-5px;position:absolute;bottom:-61px;top:auto}.tamplate6 .element_general_newsletter+input+div.smallButton div{background:url(news6_send_btn.png) no-repeat;width:100%;height:100%;position:static}.tamplate6 .element_general_newsletter+input+div.smallButton div:hover{background-position:initial}#topopup.tamplate6 .element_general_newsletter #ticket_customer_email{width:100%;height:67px;border-radius:5px;border:none;box-shadow:0 0 7px 2px #b9b9b9;font-size:19px;color:#818180;padding-right:30px;outline:0}.tamplate7 .element_general_popup,.tamplate7 .popup_title{background:0 0}#topopup.tamplate7{background:url(news7.png) no-repeat;border:none;width:1009px;height:763px;right:0;left:0;margin:0 auto}.tamplate7 button#modal_close_btn.close{background:url(news7_close.png) no-repeat!important;top:678px!important;width:53px!important;height:53px!important;left:auto!important;right:32px!important}.tamplate7 .popup_content{font-size:54.43px;font-weight:700;color:#fff!important;line-height:55px;width:500px;top:258px;right:340px;position:absolute;overflow:hidden;max-height:60px}.tamplate7 .popup_content span{color:#ffad29}.tamplate7 #popup_content .popup_title h3{font-size:37.32px;height:50px;position:absolute;text-align:right;margin:0;padding:0;top:206px;color:#FFF;right:341px;line-height:40px;max-height:43px;overflow:hidden;max-width:530px}#topopup.tamplate7 #new_ticket{width:100%;height:initial}.tamplate7 .contact{width:100%}.tamplate7 .popup_newsletter .element_general_newsletter{background:0 0;width:100%}.tamplate7 .contact label{width:100%;padding-right:0}#topopup.tamplate7 .element_general_newsletter #ticket_customer_email{background-color:#fff;margin:0}.tamplate7 .element_general_popup .popup_newsletter{position:absolute;bottom:268px;left:107px;width:560px;top:auto}.tamplate7 .popup_content_bottom{font-size:16.32px;color:#fff!important;position:absolute;bottom:275px;height:30px;font-weight:400;margin:0;right:375px}.tamplate7 .smallButton{width:344px;height:72px;left:-4px;position:absolute;bottom:-87px;top:auto}.tamplate7 .element_general_newsletter+input+div.smallButton div{background:#6087d3;width:100%;height:100%;position:static;border-radius:5px}#topopup.tamplate7 .element_general_newsletter #ticket_customer_email{width:100%;height:79px;border-radius:5px;border:none;box-shadow:none;font-size:19px;color:#818180;padding-right:30px;outline:0}.tamplate7 div.smallButton div:after{font-size:24px;font-weight:700;color:#fff;line-height:72px;text-align:center}.tamplate8 .element_general_popup,.tamplate8 .popup_title{background:0 0}#topopup.tamplate8{background:url(news8.png) no-repeat;border:none;width:1003px;height:562px;right:0;left:0;margin:0 auto}.tamplate8 button#modal_close_btn.close{background:url(news7_close.png) no-repeat!important;top:-2px!important;width:53px!important;height:53px!important;left:-73px!important;right:auto!important}.tamplate8 .popup_content{font-size:72.15px;font-weight:700;color:#261a10!important;line-height:69px;width:500px;top:124px;right:448px;position:absolute;max-height:75px;overflow:hidden}.tamplate8 #popup_content .popup_title h3{font-size:49.47px;height:52px;position:absolute;text-align:right;margin:0;padding:0;top:60px;color:#261a10;right:448px;line-height:42px;overflow:hidden;max-width:540px}#topopup.tamplate8 #new_ticket{width:100%;height:initial}.tamplate8 .contact{width:100%}.tamplate8 .popup_newsletter .element_general_newsletter{background:0 0;width:100%}.tamplate8 .contact label{width:100%;padding-right:0}#topopup.tamplate8 .element_general_newsletter #ticket_customer_email{width:100%;height:83px;border-radius:5px;border:none;box-shadow:0 0 7px 2px #b9b9b9;outline:0;font-size:19px;background-color:#fff;margin:0}.tamplate8 .element_general_popup .popup_newsletter{position:absolute;bottom:182px;left:76px;width:690px;top:auto}.tamplate8 .popup_content_bottom{font-size:17px;color:#261a10!important;position:absolute;bottom:183px;height:30px;font-weight:400;margin:0;right:278px}.tamplate8 .smallButton{width:360px;height:75px;left:-4px;position:absolute;bottom:-98px;top:auto}.tamplate8 .element_general_newsletter+input+div.smallButton div{background:#261a10;border-radius:5px;width:100%;height:100%;position:static}.tamplate8 div.smallButton div:after{font-size:25px;font-weight:700;color:#fff;line-height:72px;text-align:center}.tamplate9 .element_general_popup,.tamplate9 .popup_title{background:0 0}#topopup.tamplate9{background:url(news9.png) no-repeat;border:none;width:889px;height:703px;right:0;left:0;margin:0 auto}.tamplate9 button#modal_close_btn.close{background:url(news7_close.png) no-repeat!important;top:225px!important;width:53px!important;height:53px!important;left:auto!important;right:-70px!important}.tamplate9 .popup_content{font-size:51.5px;font-weight:700;color:#261a10!important;width:500px;top:336px;right:auto;left:20px;position:absolute;overflow:hidden;max-height:57px;line-height:52px}.tamplate9 #popup_content .popup_title h3{font-size:35.31px;height:50px;position:absolute;text-align:right;margin:0;padding:0;top:290px;color:#261a10;right:369px;left:auto;width:auto;line-height:35px;max-height:39px;overflow:hidden;max-width:510px}#topopup.tamplate9 #new_ticket{width:100%;height:initial}.tamplate9 .contact{width:100%}.tamplate9 .popup_newsletter .element_general_newsletter{background:0 0;width:100%}.tamplate9 .contact label{width:100%;padding-right:0}#topopup.tamplate9 .element_general_newsletter #ticket_customer_email{width:100%;height:82px;border-radius:5px;border:none;box-shadow:none;font-size:20px;color:#818180;padding-right:40px;outline:0;background-color:#fff;margin:0}.tamplate9 .element_general_popup .popup_newsletter{position:absolute;bottom:151px;left:74px;width:758px;top:auto}.tamplate9 .popup_content_bottom{font-size:17px;color:#fff!important;position:absolute;bottom:151px;height:30px;font-weight:400;margin:0;right:96px}.tamplate9 .smallButton{width:359px;height:75px;left:-5px;position:absolute;bottom:-76px;top:auto}.tamplate9 .element_general_newsletter+input+div.smallButton div{background:#6cdbba;border-radius:5px;width:100%;height:100%;position:static}.tamplate9 div.smallButton div:after{font-size:25px;font-weight:700;color:#fff;line-height:75px;text-align:center}.tamplate10 .element_general_popup,.tamplate10 .popup_title{background:0 0}#topopup.tamplate10{background:url(news10.png) no-repeat;border:none;width:1182px;height:546px;right:0;left:0;margin:0 auto}.tamplate10 button#modal_close_btn.close{background:url(news7_close.png) no-repeat!important;top:55px!important;width:53px!important;height:53px!important;left:auto!important;right:6px!important}.tamplate10 .popup_content{font-size:53px;font-weight:700;color:#fff!important;line-height:55px;width:500px;top:164px;right:auto;left:53px;position:absolute;overflow:hidden;max-height:59px}.tamplate10 #popup_content .popup_title h3{font-size:36px;height:50px;position:absolute;text-align:right;margin:0;padding:0;top:118px;color:#fff;right:630px;left:auto;width:auto;max-width:500px;line-height:40px;max-height:44px;overflow:hidden}#topopup.tamplate10 #new_ticket{width:100%;height:initial}.tamplate10 .contact{width:100%}.tamplate10 .popup_newsletter .element_general_newsletter{background:0 0;width:100%}.tamplate10 .contact label{width:100%;padding-right:0}#topopup.tamplate10 .element_general_newsletter #ticket_customer_email{width:100%;height:69px;border-radius:5px;border:none;font-size:16px;color:#818180;padding-right:15px;outline:0;background-color:#fff;margin:0;-webkit-box-shadow:0 0 7px rgba(99,99,99,.15);-moz-box-shadow:0 0 7px rgba(99,99,99,.15);box-shadow:0 0 7px rgba(99,99,99,.15)}.tamplate10 .element_general_popup .popup_newsletter{position:absolute;bottom:146px;left:95px;width:467px;top:auto}.tamplate10 .popup_content_bottom{font-size:14px;color:#fff!important;position:absolute;bottom:165px;height:30px;font-weight:400;margin:0;right:auto;left:0;width:545px}.tamplate10 .smallButton{width:274px;height:61px;left:-5px;position:absolute;bottom:-50px;top:auto}.tamplate10 .element_general_newsletter+input+div.smallButton div{background:#00ada8;border-radius:5px;width:100%;height:100%;position:static}.tamplate10 div.smallButton div:after{font-size:22px;font-weight:700;color:#fff;line-height:61px;text-align:center}.tamplate11 .element_general_popup,.tamplate11 .popup_title{background:0 0}#topopup.tamplate11{background:url(news11.png) no-repeat;border:none;width:1106px;height:675px;right:0;left:0;margin:0 auto}.tamplate11 button#modal_close_btn.close{background:url(news11_close.png) no-repeat!important;top:201px!important;width:41px!important;height:41px!important;left:auto!important;right:-53px!important}.tamplate11 .popup_content{font-size:43.69px;font-weight:700;color:#fff!important;line-height:52px;width:475px;top:293px;right:57px;left:auto;position:absolute;max-height:57px;overflow:hidden}.tamplate11 #popup_content .popup_title h3{font-size:30px;height:50px;position:absolute;text-align:right;margin:0;padding:0;top:255px;color:#fff;right:56px;left:auto;width:auto;line-height:33PX;max-height:36px;overflow:hidden;max-width:580px}#topopup.tamplate11 #new_ticket{width:100%;height:initial}.tamplate11 .contact{width:100%}.tamplate11 .popup_newsletter .element_general_newsletter{background:0 0;width:100%}.tamplate11 .contact label{width:100%;padding-right:0}#topopup.tamplate11 .element_general_newsletter #ticket_customer_email{width:100%;height:69px;border-radius:5px;border:none;font-size:16px;color:#818180;padding-right:15px;outline:0;background-color:#fff;margin:0;-webkit-box-shadow:0 0 7px rgba(99,99,99,.15);-moz-box-shadow:0 0 7px rgba(99,99,99,.15);box-shadow:0 0 7px rgba(99,99,99,.15)}.tamplate11 .element_general_popup .popup_newsletter{position:absolute;bottom:146px;left:auto;right:55px;width:467px;top:auto}.tamplate11 .popup_content_bottom{font-size:14px;color:#464646!important;position:absolute;bottom:163px;height:30px;font-weight:400;margin:0;right:70px;left:auto;width:545px}.tamplate11 .smallButton{width:274px;height:61px;left:-5px;position:absolute;bottom:-50px;top:auto}.tamplate11 .element_general_newsletter+input+div.smallButton div{background:#e03838;border-radius:5px;width:100%;height:100%;position:static}.tamplate11 div.smallButton div:after{font-size:22px;font-weight:700;color:#fff;line-height:61px;text-align:center}
+
+
+/* personal_sell */
+.layout_item div#item_personal_sell {
+    height: 95px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    opacity:0;
+}
+.layout_item div#item_personal_sell div.specifications {
+    display: inline-block;
+    float: right;
+    height: 100%;
+}
+.layout_item div#item_personal_sell div#price_wrapper {
+    width: 440px;
+    float: right;
+    display: inline-block;
+    height: 100%;
+    box-sizing: border-box;
+    border-left: 1px solid #c3c1c1;
+}
+.layout_item div#item_personal_sell div.specifications .personal_sell {
+    display: block;
+    height: 100%;
+}
+.layout_item div#item_personal_sell div.specifications .personal_sell div#personal_sell_form {
+    height: 100%;
+    display: block;
+}
+.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_price {
+    display: inline-block;
+    height: 65px;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    color: #333f43;
+    box-sizing: border-box;
+    line-height: 33px;
+    margin: 0;
+    padding: 0;
+}
+.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_price input#price {
+    width: 215px;
+    height: 28px;
+    padding: 0;
+    outline: 0;
+    border: 1px solid #c3c1c1;
+    text-indent: 12px;
+    color: #333f43;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    box-sizing: border-box;
+}
+.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_price div#personal_sell_offer_counter {
+    font-size: 12px;
+    font-weight: normal;
+    color: #333f43;
+    display: inline-block;
+    float: left;
+}
+.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_button {
+    width: 204px;
+    display: inline-block;
+    height: 65px;
+    box-sizing: border-box;
+    padding-top: 19px;
+}
+.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_button input {
+    width: 158px;
+    padding: 0;
+    margin: 0 auto;
+    height: 46px;
+    display: block;
+    background: #333f43;
+    border: 1px solid #333f43;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 44px;
+}
+.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_button input:hover {
+    color: #333f43;
+    background: #fff;
+}
+.layout_item div#item_personal_sell div#personal_sell_details {
+    float: right;
+    display: inline-block;
+    max-width: 195px;
+    height: 100%;
+    color: #333f43;
+    font-weight: normal;
+    line-height: 18px;
+    padding-right: 13px;
+    padding-top: 13px;
+    font-size: 13px;
+}
+.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_msg {
+  display: block;
+  color: #ef6f3b;
+  font-size: 13px;
+  font-weight: normal;
+  width: 100%;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  padding-right: 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+.layout_item div#item_personal_sell div#personal_sell_signup {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    line-height: 95px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333f43;
+    padding-right: 20px;
+}
+.layout_item div#item_personal_sell div#personal_sell_signup a.blue_link {
+    font-weight: normal;
+    color: #ef6f3b;
+}
+.layout_item .wrap_personal_sell_signup .personal_offer {
+    max-width: 158px;
+    width: 100%;
+    height: 46px;
+    background-color: #333f43;
+    border: solid 1px #333f43;
+    float: none;
+    text-align: center;
+}
+.layout_item .wrap_personal_sell_signup .personal_offer  a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.layout_item .personal_sell_signup_right .link_personal_sell_signup {
+    font-size: 18px;
+    line-height: 31px;
+    color: #333f43;
+}
+.layout_item .personal_sell_signup_right .personal_sell_title {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #ef6f3b;
+}
+.layout_item .wrap_personal_sell_signup .personal_offer:hover {
+    background: #fff;
+}
+.layout_item .wrap_personal_sell_signup .personal_offer:hover a {
+    color: #333f43;
+}
+.layout_item div#item_personal_sell.show {
+    opacity:1;
+}
+
+@media screen and (max-width: 767px) {
+	.layout_item div#item_personal_sell {
+		height: auto;
+		margin: 20px auto;
+		overflow: hidden;
+	}
+	.layout_item div#item_personal_sell h3#personal_sell_title {
+		display: block;
+		float: none;
+		width: 50%;
+		height: 45px;
+		line-height: 45px;
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		font-size: 16px;
+		color: #333f43;
+		font-weight: bold;
+		background: url(https://cdn.speedsize.com/37635a9b-c908-4d07-afd6-95bb126edbc4/https://d3m9l0v76dty0.cloudfront.net/system/photos/189819/original/c779705f9db5272e0dd6a1737258eee8.png?1501060894) no-repeat right center;
+		border: 0;
+		border-bottom: 1px solid #c3c1c1;
+		padding-right: 40px;
+	}
+	.layout_item div#item_personal_sell div.specifications {
+		height: auto;
+		width: 100%;
+		display: block;
+	}
+	.layout_item div#item_personal_sell div#price_wrapper {
+			width: 100%;
+			float: none;
+			display: block;
+			height: 70px;
+			box-sizing: border-box;
+			border: 0;
+			border-bottom: 1px solid #c3c1c1;
+	}
+	.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_price {
+			width: 55%;
+			height: 60px;
+			padding: 0;
+			margin: 0;
+			font-size: 16px;
+			line-height: 30px;
+	}
+	.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_price div#personal_sell_offer_counter {
+			font-size: 10px;
+	}
+	.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_price input#price {
+			width: 100%;
+			height: 28px;
+	}
+	.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_button {
+			width: 45%;
+			padding-top: 13px;
+			height: 60px;
+	}
+	.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_button input {
+			width: 90%;
+	}
+	.layout_item div#item_personal_sell div#price_wrapper div#personal_sell_msg {
+			line-height: 20px;
+	}
+	.layout_item div#item_personal_sell div#personal_sell_details {
+			display: block;
+			float: none;
+			width: 100%;
+			max-width: 100%;
+			padding-right: 0;
+			padding-top: 5px;
+	}
+}
+@media screen and (min-width:768px) {
+    .layout_item div#item_personal_sell h3#personal_sell_title {
+        margin: 0;
+        display: inline-block;
+        float: right;
+        width: 140px;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 70px;
+        font-size: 20px;
+        color: #333f43;
+        width: 125px;
+        font-weight: bold;
+        background: url(https://cdn.speedsize.com/37635a9b-c908-4d07-afd6-95bb126edbc4/https://d3m9l0v76dty0.cloudfront.net/system/photos/189773/original/63453042f8928b1f20df329a4689092a.png?1501051860) no-repeat center 8px;
+        border-left: 1px solid #c3c1c1;
+    }
+    .layout_item div#item_personal_sell div#price_wrapper div#personal_sell_price {
+        width: 220px;
+        padding-right: 10px;
+    }
+    .layout_item div#item_personal_sell div#price_wrapper div#personal_sell_button {
+        width: 178px;
+
+    }
+    .layout_item div#item_personal_sell div#price_wrapper {
+        width: 400px;
+    }
+}
+@media screen and (min-width:992px) {
+    .layout_item .wrap_personal_sell_signup .personal_offer {
+        float: left;
+    }
+    .layout_item div#item_personal_sell h3#personal_sell_title {
+        width: 140px;
+    }
+    .layout_item div#item_personal_sell div#price_wrapper div#personal_sell_price {
+        width: 235px;
+        padding-right: 20px;
+    }
+    .layout_item div#item_personal_sell div#price_wrapper div#personal_sell_button {
+        width: 204px;
+    }
+    .layout_item div#item_personal_sell div#price_wrapper {
+        width: 440px;
+    }
+}
+/* end personal_sell */
